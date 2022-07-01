@@ -16,15 +16,11 @@ for (let index = 0; index < button.length; index++) {
     const element = button[index];
     element.addEventListener("click", saveBtn)
 }
-
-{
-    key: "information"
-}
-function keys(Arr) {
-    var strings = JSON.stringify(Arr)
-    localStorage.setItem("information", strings)
-    return 
-}
+// function keys(Arr) {
+//     var strings = JSON.stringify(Arr)
+//     localStorage.setItem("information", strings)
+    
+// }
 
 var hour9 = $(".9")
 var hour10 = $(".10")
